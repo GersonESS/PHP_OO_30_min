@@ -24,7 +24,7 @@ class Produto{
 
 
     public function getDetalhes(){
-        return "O Produto {$this->descricao} custa {$this->preco} reais. Fabricante: {$this->fabricante->getNome()}";
+        return "<br /> <br /> O Produto {$this->descricao} custa {$this->preco} reais. Fabricante: {$this->fabricante->getNome()}";
 
     }
     
@@ -34,7 +34,7 @@ $p1 = new Produto("Livro" , 789, $f1);
 
 
 var_dump($p1);
-//<br></br>
+
 echo $p1->getDetalhes();
 
 
