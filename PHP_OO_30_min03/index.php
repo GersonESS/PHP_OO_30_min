@@ -1,11 +1,6 @@
 <?php
 class Produto{
 
-    public function __construct()
-    {
-        echo "Objeto Criado";
-    }
-
     private $descricao;
     private $preco;
 
@@ -31,8 +26,7 @@ $p1->setDescricao ("Livro");
 $p1->setPreco (80);
 
 
-var_dump($p1);
-//<br></br>
+//var_dump($p1);
 echo $p1->getDetalhes();
 
 
